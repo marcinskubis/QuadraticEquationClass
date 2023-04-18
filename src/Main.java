@@ -26,7 +26,7 @@ public class Main {
         if(delta==0) System.out.print("X: "+qp.getX1());
         if(delta>0) System.out.print("X1: "+qp.getX1()+" X2: "+qp.getX2());
     }
-    private static void power4Equation(QuadratPoly qp)
+    private static void power4ThEquation(QuadratPoly qp)
     {
         if(qp.sgnDelta()>=0)
         {
